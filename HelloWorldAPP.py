@@ -10,5 +10,5 @@ def hello():
 
 # Ejecutar la aplicación en el puerto 443 (requiere permisos de administrador)
 if __name__ == '__main__':
-    app.run(debug=True, port=443, host='0.0.0.0', ssl_context='adhoc')
+    app.run(debug=False, port=443, host='0.0.0.0', ssl_context='adhoc')
 
